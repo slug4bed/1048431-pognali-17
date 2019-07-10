@@ -1,7 +1,7 @@
 # Личный проект «Погнали» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Evgeny  Pepe](https://up.htmlacademy.ru/adaptive/17/user/1048431).
-* Наставник: `Неизвестно`.
+* Наставник: [Николай Солодухин](https://up.htmlacademy.ru/adaptive/17/user/138404)
 
 ---
 
