@@ -1,0 +1,32 @@
+.about-service__wrapper {
+  min-height: 631px;
+  border-radius: 0 0 29px 29px;
+  background-size: 292px 352px, 113px 132px;
+  background-position: 60% 100%, 0 56%;
+  background-color: rgba($color: #192144, $alpha: 1.0);
+  background-image: url("../img/about-mobile@1x.png"), linear-gradient(#141b3b, #141b3b);
+  background-repeat: no-repeat;
+}
+
+.about-service__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  color: rgba($color: #ff8d30, $alpha: 1.0);
+}
+
+.about-service__description,
+.about-service__slogan {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  color: white;
+}
+
+.about-service__slogan {
+  font-weight: 600;
+}

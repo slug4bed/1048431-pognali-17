@@ -1,0 +1,44 @@
+.user-guide__list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  color: rgba($color: #161c35, $alpha: 1.0);
+}
+
+.user-guide__item--step-1,
+.user-guide__item--step-2,
+.user-guide__item--step-3 {
+  min-width: 270px;
+  min-height: 160px;
+  border-radius: 10px;
+}
+
+.user-guide__item--step-1 {
+  background-color: rgba($color: #ff8d30, $alpha: 1.0);
+}
+
+.user-guide__item--step-2 {
+  margin-top: -100px;
+  background-color: rgba($color: #ffa530, $alpha: 1.0);
+}
+
+.user-guide__item--step-3 {
+  margin-top: -100px;
+  background-color: rgba($color: #ffbd30, $alpha: 1.0);
+}
+
+.user-guide__item--step-4 {
+  min-width: 270px;
+  min-height: 80px;
+  margin-top: -100px;
+  border-radius: 10px;
+  background-color: rgba($color: #ffd74b, $alpha: 1.0);
+}
+
+.user-guide__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 600;
+}

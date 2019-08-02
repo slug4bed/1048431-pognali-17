@@ -1,0 +1,27 @@
+.business-rates {
+  min-height: 443px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.business-rates__list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.business-rates__item {
+  color: rgba($color: #444444, $alpha: 1.0);
+}
+
+.business-rates__close {
+  padding: 20px 80px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  border: none;
+  border-radius: 0 0 20px;
+  color: rgba($color: #1d2e5b, $alpha: 1.0);
+  background-color: rgba($color: #f3f4f8, $alpha: 1.0);
+  text-transform: uppercase;
+}

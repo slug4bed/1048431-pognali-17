@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Blogger Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    local("BloggerSans Light"),
+    local("BloggerSans-Light"),
+    url("../fonts/bloggersans-light.woff") format("woff"),
+    url("../fonts/bloggersans-light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Blogger Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local("BloggerSans"),
+    local("BloggerSans"),
+    url("../fonts/bloggersans.woff") format("woff"),
+    url("../fonts/bloggersans.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Blogger Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    local("BloggerSans Medium"),
+    local("BloggerSans-Medium"),
+    url("../fonts/bloggersans-medium.woff") format("woff"),
+    url("../fonts/bloggersans-medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Blogger Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    local("BloggerSans Bold"),
+    local("BloggerSans-Bold"),
+    url("../fonts/bloggersans-bold.woff") format("woff"),
+    url("../fonts/bloggersans-bold.woff2") format("woff2");
+}
+
+@import "normalize";
+@import "../sass/blocks/page-header.scss";
+@import "../sass/blocks/main-nav.scss";
+@import "../sass/blocks/page-main.scss";
+@import "../sass/blocks/site-list.scss";
+@import "../sass/blocks/user-list.scss";
+@import "../sass/blocks/contacts-list.scss";
+@import "../sass/blocks/intro.scss";
+@import "../sass/blocks/user-nav.scss";
+@import "../sass/blocks/reviews.scss";
+@import "../sass/blocks/user-guide.scss";
+@import "../sass/blocks/about-service.scss";
+@import "../sass/blocks/routes.scss";
+@import "../sass/blocks/country-route.scss";
+@import "../sass/blocks/show-all-button.scss";
+@import "../sass/blocks/companions.scss";
+@import "../sass/blocks/companion.scss";
+@import "../sass/blocks/rates.scss";
+@import "../sass/blocks/page-footer.scss";
+@import "../sass/blocks/social.scss";
+@import "../sass/blocks/business-rates.scss";
+@import "../sass/blocks/page-main-catalog.scss";
+@import "../sass/blocks/catalog-companion.scss";
+@import "../sass/blocks/catalog-transport.scss";
+@import "../sass/blocks/catalog-button.scss";
+@import "../sass/blocks/pagination.scss";
+@import "../sass/blocks/page-main-form.scss";
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Blogger Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  width: 320px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}

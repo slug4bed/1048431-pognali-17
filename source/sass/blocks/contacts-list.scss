@@ -1,0 +1,11 @@
+.contacts-list {
+  text-transform: uppercase;
+}
+
+.contacts-list__tel--header,
+.contacts-list__email--header {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  color: rgba($color: #192144, $alpha: 1.0);
+}

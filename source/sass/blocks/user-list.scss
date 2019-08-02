@@ -1,0 +1,16 @@
+.user-list {
+  text-transform: uppercase;
+}
+
+.user-list__login {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 600;
+    color: rgba($color: #192144, $alpha: 1.0);
+    padding: 13px 70px 11px;
+    border-radius: 22px;
+    background-color: rgba($color: #ffd74b, $alpha: 1.0)
+  }
+.user-list__login--main {
+  padding: 13px 40px 11px;
+}

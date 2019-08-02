@@ -1,0 +1,18 @@
+.intro {
+  background-size: 320px 285px, 192px 255px, 320px 569px;
+  background-position: 0 450px, 78px 223px, 0 0;
+  background-color: #161c36;
+  background-image:
+    linear-gradient(#161c36, #161c36),
+    url("../img/traveller-illustration-mobile@1x.png"),
+    url("../img/globe-back-mobile@1x.jpg");
+  background-repeat: no-repeat, no-repeat;
+}
+
+.intro__motto {
+  margin: 0 0 252px 0;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 600;
+  color: white;
+}

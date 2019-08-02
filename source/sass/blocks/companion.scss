@@ -1,0 +1,44 @@
+.companion {
+  display: block;
+  min-height: 427px;
+  width: 270px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.companion-image {
+  border-radius: 10px;
+  background-color: rgba($color: #74b9be, $alpha: 1.0);
+}
+
+.companion__level-count {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+.companion__level {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: white;
+}
+
+.companion__list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.companion__name {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 600;
+  color: rgba($color: #1d2e5b, $alpha: 1.0);
+}
+
+.companion__tags {
+  line-height: 18px;
+  font-weight: 400;
+}
