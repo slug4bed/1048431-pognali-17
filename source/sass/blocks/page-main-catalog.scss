@@ -1,0 +1,20 @@
+.page-main-catalog {
+  background-color: rgba($color: #edeff6, $alpha: 1.0);
+}
+
+.page-main-catalog__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 600;
+  color: white;
+}
+
+.page-main-catalog__show-more-link {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgba($color: #1d2e5b, $alpha: 1.0);
+}

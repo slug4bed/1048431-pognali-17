@@ -1,0 +1,21 @@
+.pagination {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+}
+
+.pagination__link {
+  display: block;
+  width: 134px;
+  height: 50px;
+  background-color: white;
+}
+
+.pagination__link--previous {
+  border-radius: 20px 0 0 20px;
+}
+
+.pagination__link--next {
+  border-radius: 0 20px 20px 0;
+}

@@ -1,0 +1,31 @@
+.rates {
+  min-height: 481px;
+  border-radius: 0 0 29px 29px;
+  background-color: #edeff6;
+}
+
+.rates__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  color: rgba($color: #ff8d30, $alpha: 1.0);
+}
+
+.rates__list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.rates__item {
+  color: rgba($color: #444444, $alpha: 1.0)
+}
+
+.rates__link {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+  color: rgba($color: #192144, $alpha: 1.0);
+}
