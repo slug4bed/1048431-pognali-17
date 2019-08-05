@@ -1,8 +1,8 @@
 .catalog-companion {
-  min-height: 415px;
   width: 270px;
-  border-radius: 20px;
+  min-height: 415px;
   background-color: white;
+  border-radius: 20px;
 }
 
 .catalog-companion__image {
@@ -10,27 +10,27 @@
 }
 
 .catalog-companion__name {
+  font-weight: 600;
   font-size: 20px;
   line-height: 20px;
-  font-weight: 600;
-  color: rgba($color: #1d2e5b, $alpha: 1.0);
+  color: var(--dark-blue-2);
 }
 
 .catalog-companion__likes {
+  font-weight: 600;
   font-size: 14px;
   line-height: 21px;
-  font-weight: 600;
-  color: rgba($color: #161c35, $alpha: 1.0);
+  color: var(--dark-blue);
 }
 
 .catalog-companion__tags,
 .catalog-companion__wish,
 .catalog-companion__transport-title,
 .catalog-companion__level-title {
+  font-weight: 400;
   font-size: 15px;
   line-height: 18px;
-  font-weight: 400;
-  color: rgba($color: #444444, $alpha: 1.0);
+  color: var(--dark-grey);
 }
 
 .catalog-companion__list {
@@ -40,16 +40,16 @@
 }
 
 .catalog-companion__item {
+  font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-  font-weight: 500;
+  color: var(--dark-blue-2);
   text-transform: uppercase;
-  color: rgba($color: #1d2e5b, $alpha: 1.0);
 }
 
 .catalog-companion__level-count {
+  font-weight: 600;
   font-size: 14px;
   line-height: 18px;
-  font-weight: 600;
-  color: rgba($color: #1d2e5b, $alpha: 1.0);
+  color: var(--dark-blue-2);
 }

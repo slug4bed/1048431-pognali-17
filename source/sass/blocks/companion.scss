@@ -1,27 +1,27 @@
 .companion {
   display: block;
-  min-height: 427px;
   width: 270px;
-  border-radius: 10px;
+  min-height: 427px;
   background-color: white;
+  border-radius: 10px;
 }
 
 .companion-image {
+  background-color: var(--turquoise);
   border-radius: 10px;
-  background-color: rgba($color: #74b9be, $alpha: 1.0);
 }
 
 .companion__level-count {
+  font-weight: 600;
   font-size: 24px;
   line-height: 24px;
-  font-weight: 600;
   color: white;
 }
 
 .companion__level {
+  font-weight: 400;
   font-size: 14px;
   line-height: 14px;
-  font-weight: 400;
   color: white;
 }
 
@@ -32,13 +32,13 @@
 }
 
 .companion__name {
+  font-weight: 600;
   font-size: 21px;
   line-height: 21px;
-  font-weight: 600;
-  color: rgba($color: #1d2e5b, $alpha: 1.0);
+  color: var(--dark-blue-2);
 }
 
 .companion__tags {
-  line-height: 18px;
   font-weight: 400;
+  line-height: 18px;
 }

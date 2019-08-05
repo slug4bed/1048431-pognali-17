@@ -6,6 +6,7 @@ var sourcemap = require("gulp-sourcemaps");
 var sass = require("gulp-sass");
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
+var flexbugsfixes = require("postcss-flexbugs-fixes");
 var server = require("browser-sync").create();
 
 gulp.task("css", function () {
@@ -14,7 +15,7 @@ gulp.task("css", function () {
     .pipe(sourcemap.init())
     .pipe(sass({includePaths: require("node-normalize-scss").includePaths}))
     .pipe(postcss([
-      autoprefixer()
+      autoprefixer(), flexbugsfixes()
     ]))
     .pipe(sourcemap.write("."))
     .pipe(gulp.dest("source/css"))

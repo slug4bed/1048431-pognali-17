@@ -1,9 +1,9 @@
 .show-all-button {
   padding: 24px 142px 24px 24px;
+  font-weight: 600;
   font-size: 18px;
   line-height: 18px;
-  font-weight: 600;
-  color: rgba($color: #1d2e5b, $alpha: 1.0);
+  color: var(--dark-blue-2);
+  background-color: var(--yellow-btn);
   border-radius: 9px;
-  background-color: rgba($color: #ffd74b, $alpha: 1.0);
 }
