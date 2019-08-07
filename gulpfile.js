@@ -6,15 +6,16 @@ var sourcemap = require("gulp-sourcemaps");
 var less = require("gulp-less");
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
+var flexbugsfixes = require("postcss-flexbugs-fixes");
 var server = require("browser-sync").create();
 
 gulp.task("css", function () {
   return gulp.src("source/less/style.less")
     .pipe(plumber())
     .pipe(sourcemap.init())
-    .pipe(less())
+    .pipe(sass({includePaths: require("node-normalize-scss").includePaths}))
     .pipe(postcss([
-      autoprefixer()
+      autoprefixer(), flexbugsfixes()
     ]))
     .pipe(sourcemap.write("."))
     .pipe(gulp.dest("source/css"))

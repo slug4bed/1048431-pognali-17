@@ -1,0 +1,28 @@
+.companions {
+  min-height: 1369px;
+  background-color: var(--dark-blue);
+  border-radius: 0 0 29px 29px;
+}
+
+.companions__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: var(--orange);
+}
+
+.companions__description,
+.companions__slogan {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: white;
+}
+
+.companions__slogan {
+  font-weight: 600;
+}

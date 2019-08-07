@@ -1,0 +1,34 @@
+.country-route {
+  min-width: 270px;
+  min-height: 190px;
+}
+
+.country-route__image {
+  border-radius: 10px 10px 0 0;
+}
+
+.country-route__info {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.country-route__name {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--darker-blue);
+}
+
+.country-route__slogan {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--dark-grey);
+}
+
+.country-route__people-count {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--dark-grey);
+}

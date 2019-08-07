@@ -1,0 +1,20 @@
+.page-main-catalog {
+  background-color: var(--light-grey);
+}
+
+.page-main-catalog__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  color: white;
+}
+
+.page-main-catalog__show-more-link {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  color: var(--dark-blue-2);
+  text-transform: uppercase;
+}
