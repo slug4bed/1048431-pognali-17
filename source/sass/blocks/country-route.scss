@@ -8,27 +8,27 @@
 }
 
 .country-route__info {
-  border-radius: 10px;
   background-color: white;
+  border-radius: 10px;
 }
 
 .country-route__name {
+  font-weight: 600;
   font-size: 21px;
   line-height: 21px;
-  font-weight: 600;
-  color: rgba($color: #161c35, $alpha: 1.0);
+  color: var(--darker-blue);
 }
 
 .country-route__slogan {
+  font-weight: 500;
   font-size: 16px;
   line-height: 18px;
-  font-weight: 500;
-  color: rgba($color: #444444, $alpha: 0.3);
+  color: var(--dark-grey);
 }
 
 .country-route__people-count {
+  font-weight: 500;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 500;
-  color: rgba($color: #444444, $alpha: 0.3);
+  color: var(--dark-grey);
 }

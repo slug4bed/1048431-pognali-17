@@ -1,7 +1,7 @@
 .business-rates {
   min-height: 443px;
-  border-radius: 20px;
   background-color: white;
+  border-radius: 20px;
 }
 
 .business-rates__list {
@@ -11,17 +11,17 @@
 }
 
 .business-rates__item {
-  color: rgba($color: #444444, $alpha: 1.0);
+  color: var(--dark-grey);
 }
 
 .business-rates__close {
   padding: 20px 80px;
+  font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 600;
+  color: var(--dark-blue-2);
+  text-transform: uppercase;
+  background-color: var(--light-grey-2);
   border: none;
   border-radius: 0 0 20px;
-  color: rgba($color: #1d2e5b, $alpha: 1.0);
-  background-color: rgba($color: #f3f4f8, $alpha: 1.0);
-  text-transform: uppercase;
 }
