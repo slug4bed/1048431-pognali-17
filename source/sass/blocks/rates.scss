@@ -1,12 +1,33 @@
 .rates {
   min-height: 481px;
   background-color: var(--light-grey);
+  background-image: url("../img/rates@1x.png");
+  background-repeat: no-repeat;
+  background-position: 82% 45px;
+  background-size: 99px 99px;
   border-radius: 0 0 29px 29px;
 }
 
+.rates__wrapper {
+  width: 270px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.rates__title,
+.rates__item,
+.rates__link {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
 .rates__title {
+  width: 125px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 60px;
+  padding-top: 55px;
   font-weight: 600;
   font-size: 24px;
   line-height: 24px;
@@ -20,6 +41,8 @@
 }
 
 .rates__item {
+  width: 195px;
+  margin-bottom: 30px;
   color: var(--dark-grey);
 }
 
@@ -28,4 +51,83 @@
   font-size: 16px;
   line-height: 16px;
   color: var(--dark-blue);
+}
+
+@media (--tablet-width) {
+  .rates__wrapper {
+    width: 694px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .rates {
+    min-height: 555px;
+    background-position: 90% 410px;
+  }
+
+  .rates__title,
+  .rates__item,
+  .rates__link {
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+
+  .rates__title {
+    width: 530px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    padding-top: 80px;
+    font-size: 45px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .rates__list {
+    margin-bottom: 80px;
+  }
+
+  .rates__item {
+    display: flex;
+    justify-content: space-between;
+    width: 580px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .rates__link {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media (--desktop-width) {
+  .rates__wrapper {
+    width: 1320px;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  .rates {
+    min-height: 750px;
+    background-position: 87% 210px;
+    background-size: 198px 198px;
+  }
+
+  .rates__title,
+  .rates__item,
+  .rates__link {
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+
+  .rates__item {
+    width: 800px;
+    padding-left: 160px;
+  }
+
+  .rates__link {
+    padding-left: 160px;
+  }
 }

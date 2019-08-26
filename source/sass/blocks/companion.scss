@@ -2,13 +2,14 @@
   display: block;
   width: 270px;
   min-height: 427px;
+  margin-bottom: 10px;
   background-color: white;
   border-radius: 10px;
 }
 
-.companion-image {
+.companion__image {
   background-color: var(--turquoise);
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
 }
 
 .companion__level-count {
@@ -26,6 +27,7 @@
 }
 
 .companion__list {
+  display: flex;
   margin: 0;
   padding-left: 0;
   list-style: none;
@@ -41,4 +43,27 @@
 .companion__tags {
   font-weight: 400;
   line-height: 18px;
+}
+
+@media (--tablet-width) {
+  .companion {
+    display: block;
+    width: 285px;
+    min-height: 483px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  .companion__image {
+    min-width: 285px;
+    background-color: var(--turquoise);
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+@media (--desktop-width) {
+  .companion {
+    margin-left: 60px;
+  }
 }

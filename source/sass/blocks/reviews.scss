@@ -1,16 +1,53 @@
 .reviews {
+  width: 240px;
+  padding-top: 60px;
+  padding-left: 25px;
   font-size: 16px;
   line-height: 22px;
   color: white;
 }
 
+.reviews__item {
+  margin: 0;
+}
+
 .reviews__text {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 25px;
   font-weight: 300;
 }
 
 .reviews__author-name {
+  margin-bottom: 30px;
   font-weight: 600;
   font-style: normal;
+}
+
+@media (--tablet-width) {
+  .reviews {
+    width: 340px;
+    margin-top: -240px;
+    margin-bottom: 260px;
+    padding-left: 34px;
+  }
+
+  .reviews__text {
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .reviews__author-name {
+    width: 100px;
+    font-size: 21px;
+    line-height: 25px;
+  }
+}
+
+@media (--desktop-width) {
+  .reviews {
+    width: 285px;
+    margin-top: -420px;
+    margin-bottom: 260px;
+    margin-left: 1035px;
+  }
 }

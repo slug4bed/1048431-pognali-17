@@ -4,9 +4,19 @@
   border-radius: 0 0 29px 29px;
 }
 
+.routes__wrapper {
+  width: 270px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
 .routes__title {
   margin-top: 0;
   margin-bottom: 0;
+  padding-top: 75px;
+  padding-bottom: 25px;
   font-weight: 600;
   font-size: 24px;
   line-height: 24px;
@@ -14,10 +24,89 @@
 }
 
 .routes__description {
+  width: 200px;
   margin-top: 0;
   margin-bottom: 0;
+  padding-bottom: 60px;
   font-weight: 300;
   font-size: 16px;
   line-height: 22px;
   color: var(--dark-grey);
+}
+
+.routes__link {
+  display: block;
+  margin-top: 35px;
+}
+
+@media (--tablet-width) {
+  .routes {
+    min-height: 1050px;
+    background-image: url("../img/flags-back@1x.png");
+    background-repeat: no-repeat;
+    background-position: 88% 75px;
+    background-size: 289px 575px;
+  }
+
+  .routes__wrapper {
+    width: 620px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .routes__title {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .routes__description {
+    width: 350px;
+    margin-bottom: 50px;
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .routes__link {
+    margin-top: 45px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+@media (--desktop-width) {
+  .routes {
+    min-height: 750px;
+    background-image: url("../img/flags-back@1x.png");
+    background-repeat: no-repeat;
+    background-position: 95% 75px;
+    background-size: 289px 575px;
+  }
+
+  .routes__wrapper {
+    position: relative;
+    width: 1180px;
+    padding-right: 130px;
+    padding-left: 130px;
+  }
+
+  .routes__title {
+    position: absolute;
+    top: 80px;
+    right: 315px;
+    width: 290px;
+  }
+
+  .routes__description {
+    position: absolute;
+    top: 270px;
+    right: 250px;
+    width: 350px;
+  }
+
+  .routes__link {
+    position: absolute;
+    top: 470px;
+    right: 360px;
+    width: 175px;
+  }
 }

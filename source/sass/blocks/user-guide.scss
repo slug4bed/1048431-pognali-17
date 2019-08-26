@@ -1,15 +1,16 @@
 .user-guide__list {
-  margin: 0;
+  display: block;
+  width: 270px;
+  margin: 0 auto;
   padding-left: 0;
   list-style: none;
-  color: var(--darker-blue);
 }
 
 .user-guide__item--step-1,
 .user-guide__item--step-2,
 .user-guide__item--step-3 {
-  min-width: 270px;
-  min-height: 160px;
+  width: 270px;
+  height: 160px;
   border-radius: 10px;
 }
 
@@ -18,19 +19,19 @@
 }
 
 .user-guide__item--step-2 {
-  margin-top: -100px;
+  margin-top: -90px;
   background-color: var(--off-orange);
 }
 
 .user-guide__item--step-3 {
-  margin-top: -100px;
+  margin-top: -90px;
   background-color: var(--off-yellow);
 }
 
 .user-guide__item--step-4 {
-  min-width: 270px;
+  width: 270px;
   min-height: 80px;
-  margin-top: -100px;
+  margin-top: -80px;
   background-color: var(--yellow-btn);
   border-radius: 10px;
 }
@@ -41,4 +42,90 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 18px;
+}
+
+@media (--tablet-width) {
+  .user-guide {
+    margin-top: 278px;
+  }
+
+  .user-guide__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 694px;
+    height: 280px;
+    margin: 0 auto;
+  }
+
+  .user-guide__item--step-1,
+  .user-guide__item--step-2,
+  .user-guide__item--step-3,
+  .user-guide__item--step-4 {
+    min-width: 347px;
+    height: 140px;
+    margin-top: 0;
+  }
+
+  .user-guide__item--step-1 {
+    border-radius: 10px 0 0 0;
+  }
+
+  .user-guide__item--step-2 {
+    border-radius: 0 10px 0 0;
+  }
+
+  .user-guide__item--step-3 {
+    border-radius: 0 0 0 10px;
+  }
+
+  .user-guide__item--step-4 {
+    border-radius: 0 0 10px 0;
+  }
+
+  .user-guide__item--step-2,
+  .user-guide__item--step-4 {
+    transform: translateX(-10px);
+  }
+}
+
+@media (--desktop-width) {
+  .user-guide {
+    margin-top: 278px;
+  }
+
+  .user-guide__list {
+    display: flex;
+    width: 1440px;
+    height: 108px;
+    margin-top: -50px;
+    padding-bottom: 120px;
+  }
+
+  .user-guide__item--step-1,
+  .user-guide__item--step-2,
+  .user-guide__item--step-3,
+  .user-guide__item--step-4 {
+    min-width: 300px;
+    height: 108px;
+    margin-top: 0;
+    border-radius: 20px;
+  }
+
+  .user-guide__item--step-1 {
+    min-width: 345px;
+  }
+
+  .user-guide__item--step-2 {
+    min-width: 375px;
+    transform: translateX(-30px);
+  }
+
+  .user-guide__item--step-3 {
+    min-width: 315px;
+    transform: translateX(-60px);
+  }
+
+  .user-guide__item--step-4 {
+    transform: translateX(-90px);
+  }
 }

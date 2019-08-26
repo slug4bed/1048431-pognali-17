@@ -8,3 +8,27 @@
   line-height: 36px;
   color: var(--dark-blue);
 }
+
+@media (--tablet-width) {
+  .site-list {
+    margin-bottom: 165px;
+    text-transform: uppercase;
+  }
+
+  .site-list__link {
+    font-size: 60px;
+    line-height: 71px;
+  }
+}
+
+@media (--desktop-width) {
+  .site-list__item {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .site-list__link {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

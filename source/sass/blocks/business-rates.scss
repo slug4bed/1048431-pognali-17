@@ -4,6 +4,20 @@
   border-radius: 20px;
 }
 
+.business-rates__wrapper {
+  width: 270px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.business-rates__title {
+  margin-bottom: 50px;
+  text-align: center;
+  color: var(--orange);
+}
+
 .business-rates__list {
   margin: 0;
   padding-left: 0;
@@ -11,10 +25,13 @@
 }
 
 .business-rates__item {
+  width: 165px;
+  margin-bottom: 30px;
   color: var(--dark-grey);
 }
 
 .business-rates__close {
+  display: block;
   padding: 20px 80px;
   font-weight: 600;
   font-size: 16px;
@@ -23,5 +40,37 @@
   text-transform: uppercase;
   background-color: var(--light-grey-2);
   border: none;
-  border-radius: 0 0 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+@media (--tablet-width) {
+  .business-rates__wrapper {
+    width: 694px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .business-rates__title {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .business-rates__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 526px;
+    margin-bottom: 40px;
+    padding-left: 94px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .business-rates__close {
+    display: block;
+    width: 694px;
+    padding: 20px 80px;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }

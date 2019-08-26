@@ -1,14 +1,17 @@
 :root {
-  --dark-blue: rgba($color: #192144, $alpha: 1.0);
-  --dark-blue-2: rgba($color: #1d2e5b, $alpha: 1.0);
-  --darker-blue: rgba($color: #161c35, $alpha: 1.0);
-  --darker-blue-2: rgba($color: #141b3b, $alpha: 1.0);
-  --orange: rgba($color: #ff8d30, $alpha: 1.0);
-  --yellow-btn: rgba($color: #ffd74b, $alpha: 1.0);
-  --off-orange: rgba($color: #ffa530, $alpha: 1.0);
-  --off-yellow: rgba($color: #ffbd30, $alpha: 1.0);
-  --dark-grey: rgba($color: #444444, $alpha: 1.0);
-  --light-grey: rgba($color: #edeff6, $alpha: 1.0);
-  --light-grey-2: rgba($color: #f3f4f8, $alpha: 1.0);
-  --turquoise: rgba($color: #74b9be, $alpha: 1.0);
+  --dark-blue: #192144;
+  --dark-blue-2: #1d2e5b;
+  --darker-blue: #161c35;
+  --darker-blue-2: #141b3b;
+  --orange: #ff8d30;
+  --yellow-btn: #ffd74b;
+  --off-orange: #ffa530;
+  --off-yellow: #ffbd30;
+  --dark-grey: #444444;
+  --light-grey: #edeff6;
+  --light-grey-2: #f3f4f8;
+  --turquoise: #74b9be;
 }
+
+@custom-media --tablet-width (min-width: 768px);
+@custom-media --desktop-width (min-width: 1440px);

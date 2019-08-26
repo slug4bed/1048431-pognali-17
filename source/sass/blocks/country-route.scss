@@ -1,15 +1,22 @@
 .country-route {
-  min-width: 270px;
   min-height: 190px;
+  margin-bottom: -10px;
 }
 
-.country-route__image {
+.country-route__image-m {
   border-radius: 10px 10px 0 0;
 }
 
+.country-route__image-d {
+  display: none;
+}
+
 .country-route__info {
+  width: 270px;
+  height: 90px;
   background-color: white;
   border-radius: 10px;
+  transform: translateY(-20px);
 }
 
 .country-route__name {
@@ -24,6 +31,7 @@
   font-size: 16px;
   line-height: 18px;
   color: var(--dark-grey);
+  opacity: 0.3;
 }
 
 .country-route__people-count {
@@ -31,4 +39,47 @@
   font-size: 16px;
   line-height: 30px;
   color: var(--dark-grey);
+  opacity: 0.3;
+}
+
+@media (--tablet-width) {
+  .country-route__image-m {
+    display: none;
+  }
+
+  .country-route {
+    display: flex;
+    min-height: 140px;
+    margin-bottom: 10px;
+  }
+
+  .country-route__info {
+    width: 433px;
+    height: 140px;
+    background-color: white;
+    border-radius: 20px 0 0 20px;
+    transform: translateY(0);
+  }
+
+  .country-route__image-wrapper {
+    flex-shrink: 1;
+    order: 2;
+    width: 186px;
+    height: 140px;
+    overflow: hidden;
+  }
+
+  .country-route__image-d {
+    display: block;
+    width: 344px;
+    height: 140px;
+    border-radius: 0 20px 20px 0;
+    object-fit: cover;
+  }
+}
+
+@media (--desktop-width) {
+  .country-route:first-of-type {
+    padding-top: 160px;
+  }
 }
