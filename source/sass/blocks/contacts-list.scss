@@ -64,14 +64,11 @@
     margin-left: auto;
   }
 
-  .contacts-list__email {
-    display: none;
-  }
-
+  .contacts-list__email,
   .contacts-list__tel {
     display: none;
   }
-
+  
   .contacts-list__icon--header {
     position: absolute;
     display: inline-block;
