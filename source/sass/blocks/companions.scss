@@ -11,11 +11,7 @@
 }
 
 .companions__wrapper {
-  width: 270px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 25px;
-  padding-left: 25px;
+  position: relative;
 }
 
 .companions__title {
@@ -31,9 +27,6 @@
 .companions__description,
 .companions__slogan {
   margin-top: 0;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 22px;
   color: white;
 }
 
@@ -43,9 +36,12 @@
 }
 
 .companions__slogan {
-  width: 290px;
   margin-bottom: 60px;
   font-weight: 600;
+}
+
+.companions__companion {
+  margin-bottom: 10px;
 }
 
 .companions__link {
@@ -60,12 +56,6 @@
     background-repeat: no-repeat, no-repeat;
     background-position: 40px 360px, 85% 80px;
     background-size: 143px 143px, 285px 285px;
-  }
-
-  .companions__wrapper {
-    width: 620px;
-    padding-right: 40px;
-    padding-left: 40px;
   }
 
   .companions__title {
@@ -103,13 +93,6 @@
     background-repeat: no-repeat, no-repeat;
     background-position: 550px 130px, 190px 385px;
     background-size: 143px 143px, 285px 285px;
-  }
-
-  .companions__wrapper {
-    position: relative;
-    width: 1320px;
-    padding-right: 60px;
-    padding-left: 60px;
   }
 
   .companions__title {

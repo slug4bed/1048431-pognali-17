@@ -11,14 +11,6 @@
   border-radius: 0 0 29px 29px;
 }
 
-.about-service__wrapper {
-  width: 270px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 25px;
-  padding-left: 25px;
-}
-
 .about-service__title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -31,10 +23,6 @@
 .about-service__description,
 .about-service__slogan {
   margin-top: 0;
-  margin-bottom: 0;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 22px;
   color: white;
 }
 
@@ -44,6 +32,7 @@
 }
 
 .about-service__slogan {
+  margin-bottom: 0;
   width: 200px;
   font-weight: 600;
 }
@@ -62,12 +51,6 @@
     background-position: 90% 70%;
     background-size: 376px 548px;
     border-radius: 0 0 29px 29px;
-  }
-
-  .about-service__wrapper {
-    width: 694px;
-    padding-right: 40px;
-    padding-left: 40px;
   }
 
   .about-service__description,
@@ -115,12 +98,6 @@
     background-position: 90% 100%;
     background-size: 630px 665px;
     border-radius: 0 0 29px 29px;
-  }
-
-  .about-service__wrapper {
-    width: 1320px;
-    padding-right: 60px;
-    padding-left: 60px;
   }
 
   .about-service__description,

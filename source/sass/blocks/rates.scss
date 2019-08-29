@@ -8,14 +8,6 @@
   border-radius: 0 0 29px 29px;
 }
 
-.rates__wrapper {
-  width: 270px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 25px;
-  padding-left: 25px;
-}
-
 .rates__title,
 .rates__item,
 .rates__link {
@@ -48,18 +40,11 @@
 
 .rates__link {
   font-weight: 600;
-  font-size: 16px;
   line-height: 16px;
   color: var(--dark-blue);
 }
 
 @media (--tablet-width) {
-  .rates__wrapper {
-    width: 694px;
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-
   .rates {
     min-height: 555px;
     background-position: 90% 410px;
@@ -103,12 +88,6 @@
 }
 
 @media (--desktop-width) {
-  .rates__wrapper {
-    width: 1320px;
-    padding-right: 60px;
-    padding-left: 60px;
-  }
-
   .rates {
     min-height: 750px;
     background-position: 87% 210px;

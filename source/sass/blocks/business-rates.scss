@@ -4,14 +4,6 @@
   border-radius: 20px;
 }
 
-.business-rates__wrapper {
-  width: 270px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 25px;
-  padding-left: 25px;
-}
-
 .business-rates__title {
   margin-bottom: 50px;
   text-align: center;
@@ -44,12 +36,6 @@
 }
 
 @media (--tablet-width) {
-  .business-rates__wrapper {
-    width: 694px;
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-
   .business-rates__title {
     font-size: 45px;
     line-height: 45px;

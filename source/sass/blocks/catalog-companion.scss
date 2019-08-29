@@ -6,13 +6,8 @@
   border-radius: 20px;
 }
 
-.catalog-companion__image-m {
+.catalog-companion__image {
   border-radius: 50%;
-}
-
-.catalog-companion__image-t,
-.catalog-companion__image-d {
-  display: none;
 }
 
 .catalog-companion__name {
@@ -61,12 +56,8 @@
 }
 
 @media (--tablet-width) {
-  .catalog-companion__image-m {
-    display: none;
-  }
-
-  .catalog-companion__image-t {
-    display: block;
+  .catalog-companion__image {
+    width: 190px;
     border-radius: 20px;
   }
 
@@ -99,12 +90,8 @@
 }
 
 @media (--desktop-width) {
-  .catalog-companion__image-t {
-    display: none;
-  }
-
-  .catalog-companion__image-d {
-    display: block;
+  .catalog-companion__image {
+    width: 285px;
     border-radius: 20px 0 0 20px;
   }
 

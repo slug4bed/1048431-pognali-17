@@ -1,14 +1,5 @@
-.country-route {
-  min-height: 190px;
-  margin-bottom: -10px;
-}
-
-.country-route__image-m {
+.country-route__image {
   border-radius: 10px 10px 0 0;
-}
-
-.country-route__image-d {
-  display: none;
 }
 
 .country-route__info {
@@ -36,20 +27,13 @@
 
 .country-route__people-count {
   font-weight: 500;
-  font-size: 16px;
   line-height: 30px;
-  color: var(--dark-grey);
-  opacity: 0.3;
+  color: rgba(#444444, 0.3);
 }
 
 @media (--tablet-width) {
-  .country-route__image-m {
-    display: none;
-  }
-
   .country-route {
     display: flex;
-    min-height: 140px;
     margin-bottom: 10px;
   }
 
@@ -69,8 +53,7 @@
     overflow: hidden;
   }
 
-  .country-route__image-d {
-    display: block;
+  .country-route__image {
     width: 344px;
     height: 140px;
     border-radius: 0 20px 20px 0;

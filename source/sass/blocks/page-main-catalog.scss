@@ -2,14 +2,6 @@
   background-color: var(--light-grey);
 }
 
-.page-main-catalog__wrapper {
-  width: 270px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 25px;
-  padding-left: 25px;
-}
-
 .page-main-catalog__title {
   margin-top: 0;
   margin-bottom: 0;
@@ -32,22 +24,8 @@
     min-height: 2000px;
   }
 
-  .page-main-catalog__wrapper {
-    width: 688px;
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-
   .page-main-catalog__title {
     font-size: 60px;
     line-height: 70px;
-  }
-}
-
-@media (--desktop-width) {
-  .page-main-catalog__wrapper {
-    width: 1320px;
-    padding-right: 60px;
-    padding-left: 60px;
   }
 }

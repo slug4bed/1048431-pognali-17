@@ -1,8 +1,6 @@
 .companion {
-  display: block;
   width: 270px;
   min-height: 427px;
-  margin-bottom: 10px;
   background-color: white;
   border-radius: 10px;
 }
@@ -47,10 +45,8 @@
 
 @media (--tablet-width) {
   .companion {
-    display: block;
     width: 285px;
     min-height: 483px;
-    margin-bottom: 10px;
     background-color: white;
     border-radius: 20px;
   }
