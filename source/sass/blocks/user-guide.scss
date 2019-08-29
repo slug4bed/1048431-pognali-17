@@ -10,7 +10,7 @@
 .user-guide__item--step-2,
 .user-guide__item--step-3 {
   width: 270px;
-  height: 160px;
+  min-height: 160px;
   border-radius: 10px;
 }
 
@@ -53,7 +53,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 694px;
-    height: 280px;
+    min-height: 280px;
     margin: 0 auto;
   }
 
@@ -62,7 +62,7 @@
   .user-guide__item--step-3,
   .user-guide__item--step-4 {
     min-width: 347px;
-    height: 140px;
+    min-height: 140px;
     margin-top: 0;
   }
 
@@ -96,7 +96,7 @@
   .user-guide__list {
     display: flex;
     width: 1440px;
-    height: 108px;
+    min-height: 108px;
     margin-top: -50px;
     padding-bottom: 120px;
   }
@@ -106,7 +106,7 @@
   .user-guide__item--step-3,
   .user-guide__item--step-4 {
     min-width: 300px;
-    height: 108px;
+    min-height: 108px;
     margin-top: 0;
     border-radius: 20px;
   }
